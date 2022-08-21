@@ -9,116 +9,95 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 
-1. Từ ngoài vào trong
-2. Từ trên xuống dưới
-3. Từ tổng quan đến chi tiết
-*/
-
-
-/* 
-1. Vị trí
-2. Kích thước (width, height)
-3. Màu sắc
-4. Kiểu dáng (kiểu chữ, hình tròn, vuông,...)
-*/
-
-
 #wrapper {
 
 }
 
 
 #header {
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     height: 46.5px;
     background-color: #000;
 }
 
-#header #search {
+/* #header #search {
     float: right;
     line-height: 46.5px;
-}
+} */
 
-#header #search:hover {
+/* #header #search:hover {
     background-color: #f44336;
     cursor: pointer;
 }
 
-#header #search .ti-search {
+#header .ti-search {
     color: #fff;
     padding: 0px 24px;
     font-weight: bold;
-}
+} */
 
 #nav {
-    display: inline;
+
 }
+
+/* #nav > li {
+    display: inline-block;
+} */
 
 #nav li {
     display: inline-block;
-    line-height: 46.5px;
     position: relative;
+}
+
+#nav li:hover .subnav {
+    display: block;
 }
 
 #nav > li > a {
     color: #fff;
-    text-decoration: none;
-    display: inline-block; 
-    padding: 0px 24px; 
-}
-
-#nav > li > a {
     text-transform: uppercase;  
 }
 
+#nav li a {
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0px 24px; 
+    display: block;
+}
 
+#nav .subnav li:hover a,
 #nav > li:hover > a {
     background-color: #ccc;
     color: #000;
-}
-
-#nav .ti-angle-down {
-    font-size: 12px;
-    font-weight: bold;
-}
-
-#nav li:hover > .subnav {
-    display: block;
 }
 
 #nav .subnav {
     display: none;
     position: absolute;
     top: 100%;
+    left: 0;
     background-color: #fff;
-    width: 160px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    min-width: 160px;
 }
 
 #nav .subnav li {
-    padding-left: 12px;
-    display: block;
+    width: 100%;
 }
 
-#nav .subnav li:hover {
-    background-color: #ccc;
-}
-
-#nav .subnav li a {
+#nav .subnav a {
     color: #000;
-    text-decoration: none;
-}    
-
-#slider {
-    margin-top: 46.5px;
-}    
+    padding: 0 12px;
+    line-height: 38.5px;
+}
 
 
 #content {
+    min-height: 500px;
+    background-color: #fff;
 
 }
 
