@@ -15,10 +15,9 @@ html {
 
 
 #header {
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    left: 0;
-    right: 0; */
+    width: 100%;
     height: 46.5px;
     background-color: #000;
 }
@@ -26,10 +25,6 @@ html {
 #nav {
     display: inline-block;
 }
-
-/* #nav > li {
-    display: inline-block;
-} */
 
 #nav li {
     display: inline-block;
@@ -95,12 +90,13 @@ html {
     cursor: pointer;
 }
 
-#content {
-    min-height: 500px;
-    background-color: #fff;
-
+#slider {
+    margin-top: 46.5px;
 }
 
+#content {
+
+}
 
 #footer {
 
