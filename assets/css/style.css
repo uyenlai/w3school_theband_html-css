@@ -9,6 +9,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.clear {
+    clear: both;
+}
+
 #wrapper {
 
 }
@@ -117,8 +121,54 @@ html {
 }
 
 #content {
-    min-height: 500px;
 
+}
+
+#content .content-section {
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+#content .section-heading {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#content .section-subheading {
+    margin-bottom: 25px;
+    opacity: 0.6;
+    text-align: center;
+    font-style: italic;
+}
+
+#content .band-description {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#content .members {
+    text-align: center;
+    margin-top: 47px;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.333%;
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-avt {
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
 }
 
 #footer {
