@@ -23,24 +23,8 @@ html {
     background-color: #000;
 }
 
-/* #header #search {
-    float: right;
-    line-height: 46.5px;
-} */
-
-/* #header #search:hover {
-    background-color: #f44336;
-    cursor: pointer;
-}
-
-#header .ti-search {
-    color: #fff;
-    padding: 0px 24px;
-    font-weight: bold;
-} */
-
 #nav {
-
+    display: inline-block;
 }
 
 /* #nav > li {
@@ -94,6 +78,22 @@ html {
     line-height: 38.5px;
 }
 
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    line-height: 46.5px;
+    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
 
 #content {
     min-height: 500px;
