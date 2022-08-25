@@ -277,9 +277,9 @@ html {
 
 #form-container {
     position: relative;
-    width: 600px;
+    width: 1000px;
     max-width: calc(100% - 32px);
-    min-height: 480px;
+    min-height: 500px;
 }
 
 .tickets-header {
