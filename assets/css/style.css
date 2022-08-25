@@ -209,6 +209,56 @@ html {
     line-height: 22.5px;
 }
 
+.places-list {
+    margin: 32px -8px 32px -8px;
+}
+.place-items {
+    float: left;
+    width: 33.333%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+
+}
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-content {
+    padding: 0 16px;
+    font-size: 15px;
+    background-color: #fff;
+    line-height: 1.4;
+}
+.place-heading {
+    padding: 15px 0;
+    font-weight: 500;
+}
+.place-time {
+    padding-bottom: 15px;
+    opacity: 0.6;
+}
+.place-desc {
+    padding-bottom: 22px;
+}
+.buy-ticket-btn {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.buy-ticket-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
 #footer {
 
 }
