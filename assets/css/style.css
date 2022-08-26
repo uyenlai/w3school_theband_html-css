@@ -34,7 +34,6 @@ html {
     display: inline-block;
 }
 
-
 #nav li {
     display: inline-block;
     position: relative;
@@ -234,17 +233,21 @@ html {
     background-color: #fff;
     line-height: 1.4;
 }
+
 .place-heading {
     padding: 15px 0;
     font-weight: 500;
 }
+
 .place-time {
     padding-bottom: 15px;
     opacity: 0.6;
 }
+
 .place-desc {
     padding-bottom: 22px;
 }
+
 .buy-ticket-btn {
     background-color: #000;
     color: #fff;
@@ -257,6 +260,7 @@ html {
 .buy-ticket-btn:hover {
     color: #000;
     background-color: #ccc;
+    cursor: pointer;
 }
 
 .modal.modal-open {
@@ -275,11 +279,12 @@ html {
     justify-content: center;
 }
 
-#form-container {
+.form-container {
     position: relative;
     width: 1000px;
     max-width: calc(100% - 32px);
     min-height: 500px;
+    animation: modalAnimation ease 0.5s;
 }
 
 .tickets-header {
@@ -359,5 +364,13 @@ label {
 
 }
 
-
-
+@keyframes modalAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
