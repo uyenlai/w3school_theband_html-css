@@ -293,7 +293,7 @@ html {
 }
 
 .modal.modal-open {
-    /* display: flex; */
+    display: flex;
 }
 
 .modal {
@@ -433,8 +433,33 @@ label {
     width: 100%;
 }
 
+/* Footer */
 #footer {
+    padding: 64px 16px;
+    line-height: 36px;
+}
 
+#footer .social-icons {
+    font-size: 24px;
+}
+
+#footer .social-icons a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .social-icons a:hover {
+    opacity: 0.6;
+    cursor: default;
+}
+
+#footer p {
+    color: rgba(0, 0, 0, 0.6);
+    margin: 15px 0;
+}
+
+#footer p a {
+    color: rgba(0, 0, 0, 0.6);
 }
 
 @keyframes modalAnimation {
