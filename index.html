@@ -10,6 +10,8 @@
 </head>
 <body>
     <div id="wrapper">
+
+        <!-- Begin header -->
         <div id="header">
             <!-- Begin nav -->
             <ul id="nav">
@@ -37,34 +39,37 @@
              </div>                
              <!-- End search button -->
         </div>
+        <!-- End header -->
 
+        <!-- Begin slider -->
         <div id="slider">
         <div class="text-content">
                 <h3 class="text-heading">New York</h3>
                 <p class="text-description">The atmosphere in New York is lorem ipsum.</p>
             </div>
         </div>
+        <!-- End slider -->
 
+        <!-- Begin content -->
         <div id="content">
             <!-- About band -->
             <div class="content-section">
                 <h1 class="section-heading">THE BAND</h1>
                 <p class="section-subheading">We love music</p>
                 <p class="band-description">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="members">
-                    <div class="member-item">
+                <div class="row members-list">
+                    <div class="col col-third text-center">
                         <p class="member-name">Name</p>
                         <img src="/assets/img/member.jpeg" alt="Name" class="member-avt">
                     </div>
-                    <div class="member-item">
+                    <div class="col col-third text-center">
                         <p class="member-name">Name</p>
                         <img src="/assets/img/member.jpeg" alt="Name" class="member-avt">
                     </div>
-                    <div class="member-item">
+                    <div class="col col-third text-center">
                         <p class="member-name">Name</p>
                         <img src="/assets/img/member.jpeg" alt="Name" class="member-avt">
                     </div>
-                    <div class="clear"></div>
                 </div>  
             </div>
             <!-- Tour dates -->
@@ -80,8 +85,8 @@
                     </ul>
 
                 <!-- Places -->
-                <div class="places-list">
-                    <div class="place-items">
+                <div class="row places-list">
+                    <div class="col col-third">
                         <img src="./assets/img/place1.jpeg" alt="New York" class="place-img">
                         <div class="place-content">
                             <h3 class="place-heading">New York</h3>
@@ -90,7 +95,7 @@
                             <button class="buy-ticket-btn js-buy-tickets">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="place-items">
+                    <div class="col col-third">
                         <img src="./assets/img/place2.jpeg" alt="Paris" class="place-img">
                         <div class="place-content">
                             <h3 class="place-heading">Paris</h3>
@@ -99,7 +104,7 @@
                             <button class="buy-ticket-btn js-buy-tickets">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="place-items">
+                    <div class="col col-third">
                         <img src="./assets/img/place3.jpeg" alt="San Francisco" class="place-img">
                         <div class="place-content">
                             <h3 class="place-heading">San Francisco</h3>
@@ -108,23 +113,52 @@
                             <button class="buy-ticket-btn js-buy-tickets">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="clear"></div>
                 </div>
                 </div>
             </div>
 
-            <!-- Contact -->
+            <!-- Begin Contact Section-->
             <div class="content-section">
                 <h1 class="section-heading">CONTACT</h1>
                 <p class="section-subheading">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row mb-8">
+                                <div class="col col-half">
+                                    <input type="text" name="" id="" placeholder="Name" class="form-control" required>
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" name="" id="" placeholder="Email" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="row mb-16">
+                                <div class="col col-full">
+                                    <input type="text" name="" id="" placeholder="Message" class="form-control" required>
+                                </div>
+                            </div>
+                            <input type="submit" value="SEND" class="form-submit-btn">
+                        </form> 
+                    </div>
+                </div>
             </div>
+            <!-- End Contact Section -->
+            <div class="map-section">
+                <img src="./assets/img/map.jpeg" alt="Map">
+            </div>
+
         </div>
 
         <div id="footer">
 
         </div>
 
-        <!-- Tickets form -->
+        <!-- Tickets modal -->
         <div class="modal modal-open">
             <div class="form-container js-modal-container">
                 <i class="close-icon ti-close js-close-ticket"></i>
@@ -162,7 +196,7 @@
     </div>
 
     <!-- Javascript -->
-    <script>
+    <!-- <script>
       const buyBtns = document.querySelectorAll('.js-buy-tickets')
       const modal = document.querySelector('.modal')
       const modalContainer = document.querySelector('.js-modal-container')
@@ -190,6 +224,6 @@
         event.stopPropagation()
       })
 
-    </script>
+    </script> -->
 </body>
 </html>
