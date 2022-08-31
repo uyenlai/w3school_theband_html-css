@@ -59,9 +59,10 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 46.5px;
+    height: 47px;
     background-color: #000;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav {
@@ -467,3 +468,4 @@ label {
         transform: translateY(0);
     }
 }
+

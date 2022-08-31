@@ -1,0 +1,33 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */ 
+@media (max-width: 739px) {
+    #nav li {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        font-size: 16px;
+        color: #fff;
+        float: right;
+        line-height: 46.5px;
+        padding: 0 21px;
+    }
+
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+        color: #000;
+    }
+}
