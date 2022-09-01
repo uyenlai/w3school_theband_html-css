@@ -66,4 +66,18 @@
         color: #fff;
         padding: 5px 40px;
     }
+
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-avt {
+        width: 60%;
+    }
+
+    .places-list .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
 }
