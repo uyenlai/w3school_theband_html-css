@@ -62,7 +62,6 @@ html {
     height: 47px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -85,7 +84,7 @@ html {
 
 #nav li a {
     text-decoration: none;
-    line-height: 46.5px;
+    line-height: 47px;
     padding: 0px 24px; 
     display: block;
 }
@@ -124,7 +123,7 @@ html {
     font-size: 20px;
     color: #fff;
     float: right;
-    line-height: 46.5px;
+    line-height: 47px;
     padding: 0 21px;
 }
 
@@ -133,9 +132,13 @@ html {
     cursor: pointer;
 }
 
+#header .mobile-menu-btn {
+    display: none;
+}
+
 #slider {
     position:relative;
-    margin-top: 46.5px;
+    margin-top: 47px;
     padding-top: 50%;
     background: url('/assets/img/slider1.jpeg') top center / cover no-repeat;
 }
