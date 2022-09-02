@@ -190,8 +190,8 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
-    margin-bottom: 32px
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 #content .member-name {
@@ -240,7 +240,7 @@ html {
 
 .places-list {
     padding-top: 32px;
-    margin-bottom: 47px;
+    padding-bottom: 32px;
 }
 
 .place-img {

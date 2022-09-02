@@ -10,6 +10,14 @@
 
 /* Mobile */ 
 @media (max-width: 739px) {
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .mb-30 {
+        margin-bottom: 30px !important;
+    }
+
     #header {
         overflow: hidden;
     }
@@ -69,7 +77,6 @@
 
     #content .member-item {
         width: 100%;
-        margin-top: 30px;
     }
 
     #content .member-avt {
@@ -79,5 +86,32 @@
     .places-list .place-item {
         width: 100%;
         margin-bottom: 16px;
+    }
+
+    .buy-ticket-btn {
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        padding: 16px 16px;
+        margin-bottom: 16px;
+        display: inline-block;
+        border: none;
+    }
+
+    .contact-form .form-submit-btn {
+        margin-bottom: 16px;
+        padding: 16px 16px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+    }
+
+    .form-container {
+        position: relative;
+        margin: 0 10px;
+        width: 1000px;
+        max-width: calc(100% - 32px);
+        min-height: 500px;
+        animation: modalAnimation ease 0.5s;
     }
 }
