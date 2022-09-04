@@ -140,7 +140,7 @@ html {
     position:relative;
     margin-top: 47px;
     padding-top: 50%;
-    background: url('/assets/img/slider1.jpeg') top center / cover no-repeat;
+    background: url('../img/slider1.jpeg') top center / cover no-repeat;
 }
 
 #slider .text-content {
