@@ -1,15 +1,53 @@
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
+}
 
+/* Tablet and mobile */
+@media (max-width: 63.9375em) {
+    .buy-ticket-btn {
+        padding: 15px 16px;
+        font-size: 16px;
+    }
+
+    .contact-form .form-submit-btn {
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .contact-info p a {
+        opacity: 1;
+    }
+
+    #footer .social-icons {
+        font-size: 38px;
+    }
+
+    #footer .social-icons a {
+        padding: 0 8px;
+    }
+
+    #footer p {
+        font-size: 35px;
+        margin: 40px 0;
+    }
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .contact-info {
+        font-size: 18px;
+        padding: 15px 0;
+    }
 
 }
 
 /* Mobile */ 
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     .s-full-width {
         width: 100% !important;
     }
@@ -31,16 +69,10 @@
     }
 
     #header .mobile-menu-btn {
-        display: block;
-    }
-
-    #header .mobile-menu-btn {
         position: absolute;
         top: 0;
         right: 0;
-    }
-    
-    #header .mobile-menu-btn {
+        display: block;
         font-size: 16px;
         color: #fff;
         float: right;
@@ -88,30 +120,7 @@
         margin-bottom: 16px;
     }
 
-    .buy-ticket-btn {
-        background-color: #000;
-        color: #fff;
-        text-decoration: none;
-        padding: 16px 16px;
-        margin-bottom: 16px;
-        display: inline-block;
-        border: none;
-    }
-
-    .contact-form .form-submit-btn {
-        margin-bottom: 16px;
-        padding: 16px 16px;
-        background-color: #000;
-        color: #fff;
-        border: none;
-    }
-
     .form-container {
-        position: relative;
         margin: 0 10px;
-        width: 1000px;
-        max-width: calc(100% - 32px);
-        min-height: 500px;
-        animation: modalAnimation ease 0.5s;
     }
 }
